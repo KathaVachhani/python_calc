@@ -1,39 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@KathaVachhani 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-PrachiShah01
-/
-python_calc
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-python_calc/controller.py /
-@PrachiShah01
-PrachiShah01 created: controller.py
-Latest commit 4922aae 22 hours ago
- History
- 1 contributor
-32 lines (27 sloc)  1.19 KB
-  
-from functools import partial
-ERROR_MSG = 'ERROR'
 
 class Controller:
     def __init__(self, model, view):
